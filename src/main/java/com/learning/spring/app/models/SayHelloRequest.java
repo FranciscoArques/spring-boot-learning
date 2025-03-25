@@ -3,6 +3,8 @@ package com.learning.spring.app.models;
 public class SayHelloRequest {
     private String name;
 
+    public SayHelloRequest() {}
+
     // Constructor
     public SayHelloRequest(String name) {
         this.name = name;
